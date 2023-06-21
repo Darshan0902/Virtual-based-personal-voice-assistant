@@ -19,6 +19,8 @@ import os
  # Import module for interacting with the operating system
 import sys
  # Import module for system-specific parameters and functions
-import yagmail                                      # Import module for sending emails using Gmail
-import pygame                                       # Import module for creating games and multimedia applications
+import yagmail  
+ # Import module for sending emails using Gmail
+import pygame 
+
 import keyring                                      # Import module for accessing the system keyring services
