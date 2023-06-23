@@ -34,5 +34,14 @@
  import pygame   
  
  #Import module for accessing the system keyring services
- import keyring                                      
+ import keyring        
+
+# Initialize the text-to-speech engine using the 'sapi5' speech API
+engine = pyttsx3.init('sapi5')    
+# Create a client object for accessing the Wolfram Alpha API with your client ID
+client = wolframalpha.Client('YOUR_CLIENT_ID')
+# Get the available voices for the text-to-speech engine
+voices = engine.getProperty('voices')   
+# Set the voice property of the engine to the last available voice
+engine.setProperty('voice', voices[len(voices)-1].id)           
 
