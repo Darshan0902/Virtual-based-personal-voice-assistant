@@ -15,11 +15,15 @@ import datetime
  # Import module for querying the Wolfram Alpha computational knowledge engine
 import wolframalpha      
  # Import module for interacting with the operating system
-import os                                          
-import sys                                          # Import module for system-specific parameters and functions
-import yagmail                                      # Import module for sending emails using Gmail
-import pygame                                       # Import module for creating games and multimedia applications
-import keyring                                      # Import module for accessing the system keyring services
+import os   
+ # Import module for system-specific parameters and functions
+import sys     
+ # Import module for sending emails using Gmail
+import yagmail 
+ # Import module for creating games and multimedia applications
+import pygame    
+# Import module for accessing the system keyring services
+import keyring                                      
 
 engine = pyttsx3.init('sapi5')                                  # Initialize the text-to-speech engine using the 'sapi5' speech API
 client = wolframalpha.Client('YOUR_CLIENT_ID')                  # Create a client object for accessing the Wolfram Alpha API with your client ID
