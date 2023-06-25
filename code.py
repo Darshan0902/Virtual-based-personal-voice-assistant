@@ -9,8 +9,9 @@ import random
  # Import module for speech recognition
 import speech_recognition as sr     
  # Import module for accessing Wikipedia articles
-import wikipedia                                   
-import datetime                                     # Import module for working with dates and times
+import wikipedia    
+# Import module for working with dates and times
+import datetime                                     
 import wolframalpha                                 # Import module for querying the Wolfram Alpha computational knowledge engine
 import os                                           # Import module for interacting with the operating system
 import sys                                          # Import module for system-specific parameters and functions
