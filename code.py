@@ -1,8 +1,13 @@
 # Importing Libraries for the code
-import pyttsx3                                      # Import module for text-to-speech synthesis
-import webbrowser                                   # Import module for opening web browsers
-import random                                       # Import module for generating random numbers or selecting random items
-import speech_recognition as sr                     # Import module for speech recognition
+
+ # Import module for text-to-speech synthesis
+import pyttsx3
+  # Import module for opening web browsers
+import webbrowser  
+ # Import module for generating random numbers or selecting random items
+import random    
+ # Import module for speech recognition
+import speech_recognition as sr                    
 import wikipedia                                    # Import module for accessing Wikipedia articles
 import datetime                                     # Import module for working with dates and times
 import wolframalpha                                 # Import module for querying the Wolfram Alpha computational knowledge engine
