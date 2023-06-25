@@ -43,5 +43,9 @@ client = wolframalpha.Client('YOUR_CLIENT_ID')
 # Get the available voices for the text-to-speech engine
 voices = engine.getProperty('voices')   
 # Set the voice property of the engine to the last available voice
-engine.setProperty('voice', voices[len(voices)-1].id)           
+engine.setProperty('voice', voices[len(voices)-1].id)   
+
+def speak(audio):
+    print('Computer: ' + audio)                                 # Print the spoken text with a prefix 'Computer:'
+
 
