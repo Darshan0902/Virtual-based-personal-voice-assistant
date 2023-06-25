@@ -11,8 +11,9 @@ import speech_recognition as sr
  # Import module for accessing Wikipedia articles
 import wikipedia    
 # Import module for working with dates and times
-import datetime                                     
-import wolframalpha                                 # Import module for querying the Wolfram Alpha computational knowledge engine
+import datetime  
+ # Import module for querying the Wolfram Alpha computational knowledge engine
+import wolframalpha                                
 import os                                           # Import module for interacting with the operating system
 import sys                                          # Import module for system-specific parameters and functions
 import yagmail                                      # Import module for sending emails using Gmail
