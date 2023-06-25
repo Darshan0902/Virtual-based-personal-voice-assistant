@@ -13,8 +13,9 @@ import wikipedia
 # Import module for working with dates and times
 import datetime  
  # Import module for querying the Wolfram Alpha computational knowledge engine
-import wolframalpha                                
-import os                                           # Import module for interacting with the operating system
+import wolframalpha      
+ # Import module for interacting with the operating system
+import os                                          
 import sys                                          # Import module for system-specific parameters and functions
 import yagmail                                      # Import module for sending emails using Gmail
 import pygame                                       # Import module for creating games and multimedia applications
