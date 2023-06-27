@@ -137,7 +137,7 @@ if __name__ == '__main__':
                 if user_input.lower() == "stop":                                                    # If the user enters 'stop'
                     pygame.mixer.music.stop()                                                       # Stop the music
                     break                                                                           # Break the loop
-            pygame.quit()                                                                           # Quit the pygame module
+            pygame.quit()                                                                           # Quit the pygame module.
         
         else:                                                                       # If none of the specific commands are matched
             query = query                                                           # Assign the query to itself
