@@ -10,7 +10,7 @@ import random
 import speech_recognition as sr     
  # Import module for accessing Wikipedia articles
 import wikipedia    
-# Import module for working with dates and times
+# Import module for working with dates and time
 import datetime  
  # Import module for querying the Wolfram Alpha computational knowledge engine
 import wolframalpha      
