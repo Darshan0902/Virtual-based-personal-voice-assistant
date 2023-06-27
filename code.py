@@ -34,10 +34,14 @@ voices = engine.getProperty('voices')
  # Set the voice property of the engine to the last available voice
 engine.setProperty('voice', voices[len(voices)-1].id)          
 
+
 def speak(audio):
-    print('Computer: ' + audio)                                 # Print the spoken text with a prefix 'Computer:'
-    engine.say(audio)                                           # Use the text-to-speech engine to speak the provided audio
-    engine.runAndWait()                                         # Wait for the speech to finish before continuing
+  # Print the spoken text with a prefix 'Computer:'
+    print('Computer: ' + audio)         
+   # Use the text-to-speech engine to speak the provided audio
+    engine.say(audio)       
+ # Wait for the speech to finish before continuing
+    engine.runAndWait()                                         
 
 def greetMe():
     currentH = int(datetime.datetime.now().hour)                # Get the current hour of the day
