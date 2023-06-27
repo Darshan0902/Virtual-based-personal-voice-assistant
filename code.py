@@ -25,10 +25,14 @@ import pygame
 # Import module for accessing the system keyring services
 import keyring                                      
 
-engine = pyttsx3.init('sapi5')                                  # Initialize the text-to-speech engine using the 'sapi5' speech API
-client = wolframalpha.Client('YOUR_CLIENT_ID')                  # Create a client object for accessing the Wolfram Alpha API with your client ID
-voices = engine.getProperty('voices')                           # Get the available voices for the text-to-speech engine
-engine.setProperty('voice', voices[len(voices)-1].id)           # Set the voice property of the engine to the last available voice
+ # Initialize the text-to-speech engine using the 'sapi5' speech API
+engine = pyttsx3.init('sapi5')  
+# Create a client object for accessing the Wolfram Alpha API with your client ID
+client = wolframalpha.Client('YOUR_CLIENT_ID')    
+# Get the available voices for the text-to-speech engine
+voices = engine.getProperty('voices') 
+ # Set the voice property of the engine to the last available voice
+engine.setProperty('voice', voices[len(voices)-1].id)          
 
 def speak(audio):
     print('Computer: ' + audio)                                 # Print the spoken text with a prefix 'Computer:'
